@@ -8,7 +8,7 @@
 
 import Foundation
 
-//Instead of calling deposit and withdraw directly, we are going to do it through the command object
+//Instead of calling depositMoney and withdrawMoney methods directly in account class, we are going to do it through the command object
 protocol Command {
     func call()
     func undo()
