@@ -22,7 +22,6 @@ class Account  {
     
     func withdrawMoney(_ amount: Int) -> Bool {
         
-        //para cekme kontrolu yapiyoruz
         if (balance - amount >= moneyLimit) {
             balance -= amount
             print("- \(amount), your balance is now: \(balance)")
